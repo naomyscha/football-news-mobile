@@ -2,14 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:football_news/widgets/left_drawer.dart';
 import 'package:football_news/widgets/news_card.dart';
 
-
 class MyHomePage extends StatelessWidget {
     MyHomePage({super.key}); //sudah ada pada code sebelumnya
 
     final String nama = "Naomyscha Attalie Maza"; //nama
     final String npm = "2406348433"; //npm
     final String kelas = "F"; //kelas
-//
+
     final List<ItemHomepage> items = [
     ItemHomepage("See Football News", Icons.newspaper),
     ItemHomepage("Add News", Icons.add),
@@ -129,3 +128,4 @@ class InfoCard extends StatelessWidget {
     );
   }
 }
+
